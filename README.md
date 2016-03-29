@@ -20,7 +20,7 @@
 	}
 	else
 	{
-            ...
+                ...
 	}
 }while(::FindNextFile(hFind,&FindFileData));</pre> 
 
