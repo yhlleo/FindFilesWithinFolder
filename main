@@ -1,0 +1,12 @@
+#include "FindFiles.h"
+
+void main()
+{
+	FindFiles ff;
+	std::vector<std::string> fileNames = ff.findFiles("E:\\MatlabTest");
+
+	for ( int i=0; i<fileNames.size(); i++ )
+	{
+		std::cout << fileNames[i] << std::endl;
+	}
+}
