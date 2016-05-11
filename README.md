@@ -12,7 +12,7 @@
 
 ## 编译
 
-```
+```bash
 # cd source dir
 mkdir build && cd build
 cmake ..
@@ -21,7 +21,7 @@ make
 
 ## 效果
 
-```
+```bash
 ➜  build git:(master) ✗ ./FindFilesWithinFolder CMakeFiles
 CMakeFiles/CMakeDirectoryInformation.cmake
 CMakeFiles/Makefile2
@@ -62,7 +62,7 @@ CMakeFiles/3.0.2/CompilerIdCXX/a.out
 Several days ago, I wrote a function to grab all descendent folders of a dir,
 it's pretty much the same:
 
-```
+```cpp
 QStringList CuteWatchDog::grabAllDescendents( const QString &root )
 {
     QStringList dirEntries;
